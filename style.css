@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    color: azure;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+img{
+    width:500px;
+}
+
+.shirt, .dress{
+    /* align-items: center; */
+   /* margin: 20px;
+   width: 300px;
+   height: 300px; */
+   
+}
+
+.Shirt, .Dress{
+     /* width: 100%; */
+    /* height: 50%; */
+    margin-top: 8px;
+    display: flex;
+    background-color: aliceblue;
+    overflow-x: hidden;
+    
+}
+
+.Shirt h2{
+    color: azure;
+    font-size: 24px;
+   text-align: center;
+    
+}
+
+h3{
+    font-size: 50px;
+    color: blanchedalmond;
+}
+
+.Dress h2{
+    color: azure;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.line{
+    background-color: gold;
+    display: flex;
+    width: 180%;
+    transform: translateX(calc(-100% / 3));
+}
+
+.slide{
+    background-color: tomato;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.slide img{
+    width: 60px;
+}
+
+/* .slide h2{
+    
+} */
